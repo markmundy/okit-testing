@@ -1,0 +1,1330 @@
+{
+  "title": "Market Place: Oracle WebLogic Server domain in Oracle Cloud Infrastructure : Private Subnet with LB",
+  "description": "",
+  "created": "2021-3-3 11:14:30",
+  "updated": "2021-3-3 11:14:55",
+  "okit_version": "0.17.0",
+  "compartments": [
+    {
+      "id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "compartment_id": null,
+      "display_name": "Mark",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "OracleInternalReserved": {
+          "UsageType": "development-field-sales"
+        }
+      },
+      "description": "Mark",
+      "is_accessible": true,
+      "lifecycle_state": "ACTIVE",
+      "time_created": "2018-12-19T16:23:51.929000+00:00"
+    }
+  ],
+  "customer_premise_equipments": [],
+  "autonomous_databases": [],
+  "block_storage_volumes": [
+    {
+      "id": "ocid1.volume.oc1.uk-london-1.abwgiljrh6snu3roe4vewy7tuupvwpjvjhhzgmbsosuq3zvw6ic4v3zc555a",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-data-block-0",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:33.500Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "availability_domain": "1",
+      "size_in_gbs": 50,
+      "backup_policy": "bronze",
+      "vpus_per_gb": 10,
+      "is_auto_tune_enabled": false,
+      "is_hydrated": true,
+      "lifecycle_state": "AVAILABLE",
+      "size_in_mbs": 51200,
+      "system_tags": {},
+      "time_created": "2021-03-03T09:07:33.775000+00:00",
+      "region_availability_domain": "WtoZ:UK-LONDON-1-AD-1"
+    },
+    {
+      "id": "ocid1.volume.oc1.uk-london-1.abwgiljrx3c33ur4f6oijfmv6obxbl3ggmv24jq6wx3n6jk6fz7rarrzjjuq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-mw-block-0",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:33.482Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "availability_domain": "1",
+      "size_in_gbs": 50,
+      "backup_policy": "bronze",
+      "vpus_per_gb": 10,
+      "is_auto_tune_enabled": false,
+      "is_hydrated": true,
+      "lifecycle_state": "AVAILABLE",
+      "size_in_mbs": 51200,
+      "system_tags": {},
+      "time_created": "2021-03-03T09:07:33.833000+00:00",
+      "region_availability_domain": "WtoZ:UK-LONDON-1-AD-1"
+    },
+    {
+      "id": "ocid1.volume.oc1.uk-london-1.abwgiljt5lc2uyb4mswprfebp7nyyzhk4d2elwjsibgjyjzxbi76lvts76rq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-mw-block-1",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:33.516Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "availability_domain": "2",
+      "size_in_gbs": 50,
+      "backup_policy": "bronze",
+      "vpus_per_gb": 10,
+      "is_auto_tune_enabled": false,
+      "is_hydrated": true,
+      "lifecycle_state": "AVAILABLE",
+      "size_in_mbs": 51200,
+      "system_tags": {},
+      "time_created": "2021-03-03T09:07:33.806000+00:00",
+      "region_availability_domain": "WtoZ:UK-LONDON-1-AD-2"
+    },
+    {
+      "id": "ocid1.volume.oc1.uk-london-1.abwgiljtwoteyz3gpvfqgl7x4uhkoi64bi52wlne4iq6a4lqfcrkbgvsi2pa",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-data-block-1",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:35.528Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "availability_domain": "2",
+      "size_in_gbs": 50,
+      "backup_policy": "bronze",
+      "vpus_per_gb": 10,
+      "is_auto_tune_enabled": false,
+      "is_hydrated": true,
+      "lifecycle_state": "AVAILABLE",
+      "size_in_mbs": 51200,
+      "system_tags": {},
+      "time_created": "2021-03-03T09:07:35.663000+00:00",
+      "region_availability_domain": "WtoZ:UK-LONDON-1-AD-2"
+    }
+  ],
+  "database_systems": [],
+  "dynamic_routing_gateways": [],
+  "fast_connects": [],
+  "file_storage_systems": [],
+  "instances": [
+    {
+      "id": "ocid1.instance.oc1.uk-london-1.anwgiljr4g77oeycqtg4qlobjlbkjbv7kufvxegyir7vuyajahpcqt43yxwq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-bastion-instance",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:46.278Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "availability_domain": "1",
+      "shape": "VM.Standard2.1",
+      "count": 1,
+      "fault_domain": "FAULT-DOMAIN-3",
+      "agent_config": {
+        "is_monitoring_disabled": false,
+        "is_management_disabled": false
+      },
+      "vnics": [
+        {
+          "availability_domain": "1",
+          "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+          "defined_tags": {
+            "Mandatory_Tag": {
+              "CreateDate": "2021-03-03T09:07:46.403Z",
+              "CreatedBy": "okit.oci.user1"
+            }
+          },
+          "display_name": "ExWLS-bastion-instance",
+          "freeform_tags": {},
+          "hostname_label": "exwls-bastion-instance",
+          "id": "ocid1.vnic.oc1.uk-london-1.abwgiljr4c36aemni3iokpzh242z2y55x3hhgcmtumatphr5lubqfs5uqssq",
+          "instance_id": "ocid1.instance.oc1.uk-london-1.anwgiljr4g77oeycqtg4qlobjlbkjbv7kufvxegyir7vuyajahpcqt43yxwq",
+          "is_primary": true,
+          "lifecycle_state": "AVAILABLE",
+          "mac_address": "02:00:17:00:72:13",
+          "nic_index": 0,
+          "nsg_ids": [],
+          "private_ip": "10.0.6.2",
+          "public_ip": "132.145.25.116",
+          "skip_source_dest_check": true,
+          "subnet_id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaaa3wzczs7pffqx4wtk44ppge6xvwrqpkcooa4g64f3asrg3gtsy3a",
+          "time_created": "2021-03-03T09:07:52.504000+00:00",
+          "vlan_tag": 241,
+          "vnic_id": "ocid1.vnic.oc1.uk-london-1.abwgiljr4c36aemni3iokpzh242z2y55x3hhgcmtumatphr5lubqfs5uqssq",
+          "assign_public_ip": true,
+          "region_availability_domain": "1"
+        }
+      ],
+      "source_details": {
+        "os": "Oracle Linux",
+        "version": "7.8",
+        "boot_volume_size_in_gbs": 47,
+        "source_type": "image",
+        "image_id": "ocid1.image.oc1..aaaaaaaaz2lna7kxzzcyaocm36as5xvqy7unzvbnknexgp76n5g3cv4bdadq"
+      },
+      "metadata": {
+        "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAuB0OesOwp1tZ+r1QJ40iTSCyYGVEsHt5hwVAUfgXQbXXwK/7ETJDfHpbPLCKFFwrHkBbq1ubb5EQU+BzaklC9Bwl+j9eCPwpfk5QlemCai8qFps3G4UmQzh4DGQLQlRzrcJhRT7kYp6fNL6j5Jy3xiFYZAzkr1PNkUA2yFg/bL/n3sRBXqKAZOVTNnW8zsg5qDMHCW/wA012UfwVvdbYedJhObFAbw1xqFi0OkT99l6P0i6C3rLwfWLg9ojVPzvaMz15qn83F7TGP8NsgIA/7BKsEP8zXPuyE/AVmMRiBbyOCykhNDAoqSoTDgy3Yebs2NlKnwzaeQfu12TVJ8NvYw== rsa-key-20190104",
+        "user_data": "",
+        "patching_actions": "setup,list,info,download,upgrade",
+        "variant": "wiPECMve6esBkBF0g6c5mQ==",
+        "wls_version": "12.2.1.4"
+      },
+      "block_storage_volume_ids": [],
+      "object_storage_bucket_ids": [],
+      "autonomous_database_ids": [],
+      "preserve_boot_volume": false,
+      "is_pv_encryption_in_transit_enabled": false,
+      "availability_config": {
+        "recovery_action": "RESTORE_INSTANCE"
+      },
+      "extended_metadata": {},
+      "image_id": "ocid1.image.oc1..aaaaaaaaz2lna7kxzzcyaocm36as5xvqy7unzvbnknexgp76n5g3cv4bdadq",
+      "instance_options": {
+        "are_legacy_imds_endpoints_disabled": false
+      },
+      "launch_mode": "NATIVE",
+      "launch_options": {
+        "boot_volume_type": "ISCSI",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": false,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "RUNNING",
+      "primary_vnic": {
+        "availability_domain": "1",
+        "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+        "defined_tags": {
+          "Mandatory_Tag": {
+            "CreateDate": "2021-03-03T09:07:46.403Z",
+            "CreatedBy": "okit.oci.user1"
+          }
+        },
+        "display_name": "ExWLS-bastion-instance",
+        "freeform_tags": {},
+        "hostname_label": "exwls-bastion-instance",
+        "id": "ocid1.vnic.oc1.uk-london-1.abwgiljr4c36aemni3iokpzh242z2y55x3hhgcmtumatphr5lubqfs5uqssq",
+        "instance_id": "ocid1.instance.oc1.uk-london-1.anwgiljr4g77oeycqtg4qlobjlbkjbv7kufvxegyir7vuyajahpcqt43yxwq",
+        "is_primary": true,
+        "lifecycle_state": "AVAILABLE",
+        "mac_address": "02:00:17:00:72:13",
+        "nic_index": 0,
+        "nsg_ids": [],
+        "private_ip": "10.0.6.2",
+        "public_ip": "132.145.25.116",
+        "skip_source_dest_check": true,
+        "subnet_id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaaa3wzczs7pffqx4wtk44ppge6xvwrqpkcooa4g64f3asrg3gtsy3a",
+        "time_created": "2021-03-03T09:07:52.504000+00:00",
+        "vlan_tag": 241,
+        "vnic_id": "ocid1.vnic.oc1.uk-london-1.abwgiljr4c36aemni3iokpzh242z2y55x3hhgcmtumatphr5lubqfs5uqssq",
+        "assign_public_ip": true,
+        "region_availability_domain": "1"
+      },
+      "region": "uk-london-1",
+      "shape_config": {
+        "gpus": 0,
+        "local_disks": 0,
+        "max_vnic_attachments": 2,
+        "memory_in_gbs": 15,
+        "networking_bandwidth_in_gbps": 1,
+        "ocpus": 1,
+        "processor_description": "2.0 GHz Intel® Xeon® Platinum 8167M (Skylake)"
+      },
+      "system_tags": {},
+      "time_created": "2021-03-03T09:07:47.833000+00:00",
+      "region_availability_domain": "WtoZ:UK-LONDON-1-AD-1"
+    },
+    {
+      "id": "ocid1.instance.oc1.uk-london-1.anwgiljr4g77oeyc7y57atb7ixcvq2o5btatvrfepdvsyno4s25g24kx4y3a",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-wls-0",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:08:20.551Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "availability_domain": "1",
+      "shape": "VM.Standard.E3.Flex",
+      "count": 1,
+      "fault_domain": "FAULT-DOMAIN-2",
+      "agent_config": {
+        "is_monitoring_disabled": false,
+        "is_management_disabled": false
+      },
+      "vnics": [
+        {
+          "availability_domain": "1",
+          "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+          "defined_tags": {
+            "Mandatory_Tag": {
+              "CreateDate": "2021-03-03T09:08:20.715Z",
+              "CreatedBy": "okit.oci.user1"
+            }
+          },
+          "display_name": "primaryvnic",
+          "freeform_tags": {},
+          "hostname_label": "exwls-wls-0",
+          "id": "ocid1.vnic.oc1.uk-london-1.abwgiljrsdemd56lplwp7xkxjr3t4ayc6qcd2mzd7lrolljgxjzs4boqd7cq",
+          "instance_id": "ocid1.instance.oc1.uk-london-1.anwgiljr4g77oeyc7y57atb7ixcvq2o5btatvrfepdvsyno4s25g24kx4y3a",
+          "is_primary": true,
+          "lifecycle_state": "AVAILABLE",
+          "mac_address": "02:00:17:00:2C:0E",
+          "nic_index": 0,
+          "nsg_ids": [],
+          "private_ip": "10.0.3.2",
+          "skip_source_dest_check": false,
+          "subnet_id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaasqxnzflmfrijme76yw53wis54t5x3gsufdolxxw7wxuhxs7k7aha",
+          "time_created": "2021-03-03T09:08:26.850000+00:00",
+          "vlan_tag": 379,
+          "vnic_id": "ocid1.vnic.oc1.uk-london-1.abwgiljrsdemd56lplwp7xkxjr3t4ayc6qcd2mzd7lrolljgxjzs4boqd7cq",
+          "assign_public_ip": true,
+          "region_availability_domain": "1"
+        }
+      ],
+      "source_details": {
+        "os": "Oracle Linux",
+        "version": "7.8",
+        "boot_volume_size_in_gbs": 47,
+        "source_type": "image",
+        "image_id": "ocid1.image.oc1..aaaaaaaaf64ifuwpan2iovsvxxm7eebokc6aygfk2dqrjai2zmph72bnnxka"
+      },
+      "metadata": {
+        "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAuB0OesOwp1tZ+r1QJ40iTSCyYGVEsHt5hwVAUfgXQbXXwK/7ETJDfHpbPLCKFFwrHkBbq1ubb5EQU+BzaklC9Bwl+j9eCPwpfk5QlemCai8qFps3G4UmQzh4DGQLQlRzrcJhRT7kYp6fNL6j5Jy3xiFYZAzkr1PNkUA2yFg/bL/n3sRBXqKAZOVTNnW8zsg5qDMHCW/wA012UfwVvdbYedJhObFAbw1xqFi0OkT99l6P0i6C3rLwfWLg9ojVPzvaMz15qn83F7TGP8NsgIA/7BKsEP8zXPuyE/AVmMRiBbyOCykhNDAoqSoTDgy3Yebs2NlKnwzaeQfu12TVJ8NvYw== rsa-key-20190104",
+        "user_data": "",
+        "add_loadbalancer": "true",
+        "allow_manual_domain_extension": "false",
+        "app_atp_db_id": "",
+        "app_atp_db_level": "low",
+        "appdb_existing_vcn_add_seclist": "",
+        "appdb_existing_vcn_id": "",
+        "appdb_host_domain": "",
+        "appdb_host_private_ips": "",
+        "appdb_hostname_list": "",
+        "appdb_hostname_prefix": "",
+        "appdb_is_oci_db": "false",
+        "appdb_name": "",
+        "appdb_network_compartment_id": "",
+        "appdb_node_count": "",
+        "appdb_password_ocid": "",
+        "appdb_port": "1521",
+        "appdb_scan_ip_list": "",
+        "appdb_shape": "",
+        "appdb_storage_management": "",
+        "appdb_subnet_id": "",
+        "appdb_unique_name": "",
+        "appdb_user": "",
+        "appdb_version": "",
+        "apply_JRF": "false",
+        "apppdb_name": "",
+        "assign_public_ip": "false",
+        "configure_app_db": "false",
+        "data_vol_device": "/dev/sdc",
+        "data_vol_mount_point": "/u01/data",
+        "db_is_oci_db": "false",
+        "db_password_ocid": "",
+        "deploy_sample_app": "true",
+        "domain_dir": "/u01/data/domains",
+        "fmiddleware_zip": "/u01/zips/jcs/FMW/12.2.1.4.0/fmiddleware.zip",
+        "host_index": "0",
+        "idcs_app_prefix": "ExWLS",
+        "idcs_artifacts_file": "/u01/data/.idcs_artifacts.txt",
+        "idcs_client_id": "",
+        "idcs_client_secret_ocid": "",
+        "idcs_cloudgate_config_file": "/u01/data/cloudgate_config/appgateway-env",
+        "idcs_cloudgate_docker_image_name": "opc-delivery.docker.oraclecorp.com/idcs/appgateway",
+        "idcs_cloudgate_docker_image_tar": "/u01/zips/jcs/app_gateway_docker/19.3.3/app-gateway-docker-image.tar.gz",
+        "idcs_cloudgate_docker_image_version": "19.3.3-3.2003312252",
+        "idcs_cloudgate_info_file": "/tmp/.idcs_cloudgate_info.txt",
+        "idcs_cloudgate_port": "9999",
+        "idcs_conf_app_info_file": "/tmp/.idcs_conf_app_info.txt",
+        "idcs_ent_app_info_file": "/tmp/.idcs_ent_app_info.txt",
+        "idcs_host": "identity.oraclecloud.com",
+        "idcs_ip": "",
+        "idcs_port": "443",
+        "idcs_tenant": "",
+        "is_admin_instance": "true",
+        "is_app_atp_dedicated": "",
+        "is_atp_app_db": "false",
+        "is_atp_db": "false",
+        "is_bastion_instance_required": "true",
+        "is_idcs_internal": "false",
+        "is_idcs_selected": "false",
+        "is_idcs_untrusted": "false",
+        "is_lb_private": "false",
+        "is_vcn_peered": "false",
+        "jdk_zip": "/u01/zips/jcs/JDK8.0/jdk.zip",
+        "lbip": "152.67.136.178",
+        "load_balancer_id": "ocid1.loadbalancer.oc1.uk-london-1.aaaaaaaa5qq4fa5ebcev5f4rziml56wg2pdo7pjbspe5x4ra64m4cgslxpfa",
+        "log_level": "INFO",
+        "logs_dir": "/u01/logs",
+        "mode": "PROD",
+        "mw_vol_device": "/dev/sdb",
+        "mw_vol_mount_point": "/u01/app",
+        "network_compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+        "patching_actions": "setup,list,info,download,apply,upgrade",
+        "service_name": "ExWLS",
+        "service_name_prefix": "ExWLS",
+        "status_check_timeout_duration_secs": "1800",
+        "tf_script_version": "21.1.2-210218195024\n",
+        "total_vm_count": "2",
+        "variant": "wiPECMve6esBkBF0g6c5mQ==",
+        "vmscripts_path": "/u01/zips/TF/wlsoci-vmscripts.zip",
+        "wls_admin_host": "ExWLS-wls-0",
+        "wls_admin_password_ocid": "ocid1.vaultsecret.oc1.uk-london-1.amaaaaaa4g77oeyaj7abv6fu2cqctg7ej6veen2u3emcmcrdft6po3otbr2a",
+        "wls_admin_port": "9071",
+        "wls_admin_server_name": "ExWLS_adminserver",
+        "wls_admin_server_wait_timeout_mins": "30",
+        "wls_admin_ssl_port": "9072",
+        "wls_admin_user": "weblogic",
+        "wls_cluster_mc_port": "5555",
+        "wls_cluster_name": "ExWLS_cluster",
+        "wls_domain_name": "ExWLS_domain",
+        "wls_edition": "SUITE",
+        "wls_existing_vcn_id": "",
+        "wls_ext_admin_port": "7001",
+        "wls_machine_name": "ExWLS_machine_",
+        "wls_ms_extern_port": "7003",
+        "wls_ms_extern_ssl_port": "7004",
+        "wls_ms_port": "9073",
+        "wls_ms_server_name": "ExWLS_server_",
+        "wls_ms_ssl_port": "9074",
+        "wls_nm_port": "5556",
+        "wls_secured_ext_admin_port": "7002",
+        "wls_subnet_cidr": "10.0.3.0/24",
+        "wls_subnet_ocid": "ocid1.subnet.oc1.uk-london-1.aaaaaaaasqxnzflmfrijme76yw53wis54t5x3gsufdolxxw7wxuhxs7k7aha",
+        "wls_version": "12.2.1.4"
+      },
+      "block_storage_volume_ids": [
+        "ocid1.volume.oc1.uk-london-1.abwgiljrh6snu3roe4vewy7tuupvwpjvjhhzgmbsosuq3zvw6ic4v3zc555a",
+        "ocid1.volume.oc1.uk-london-1.abwgiljrx3c33ur4f6oijfmv6obxbl3ggmv24jq6wx3n6jk6fz7rarrzjjuq"
+      ],
+      "object_storage_bucket_ids": [],
+      "autonomous_database_ids": [],
+      "preserve_boot_volume": false,
+      "is_pv_encryption_in_transit_enabled": false,
+      "availability_config": {
+        "recovery_action": "RESTORE_INSTANCE"
+      },
+      "extended_metadata": {},
+      "image_id": "ocid1.image.oc1..aaaaaaaaf64ifuwpan2iovsvxxm7eebokc6aygfk2dqrjai2zmph72bnnxka",
+      "instance_options": {
+        "are_legacy_imds_endpoints_disabled": false
+      },
+      "launch_mode": "NATIVE",
+      "launch_options": {
+        "boot_volume_type": "ISCSI",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": false,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "RUNNING",
+      "primary_vnic": {
+        "availability_domain": "1",
+        "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+        "defined_tags": {
+          "Mandatory_Tag": {
+            "CreateDate": "2021-03-03T09:08:20.715Z",
+            "CreatedBy": "okit.oci.user1"
+          }
+        },
+        "display_name": "primaryvnic",
+        "freeform_tags": {},
+        "hostname_label": "exwls-wls-0",
+        "id": "ocid1.vnic.oc1.uk-london-1.abwgiljrsdemd56lplwp7xkxjr3t4ayc6qcd2mzd7lrolljgxjzs4boqd7cq",
+        "instance_id": "ocid1.instance.oc1.uk-london-1.anwgiljr4g77oeyc7y57atb7ixcvq2o5btatvrfepdvsyno4s25g24kx4y3a",
+        "is_primary": true,
+        "lifecycle_state": "AVAILABLE",
+        "mac_address": "02:00:17:00:2C:0E",
+        "nic_index": 0,
+        "nsg_ids": [],
+        "private_ip": "10.0.3.2",
+        "skip_source_dest_check": false,
+        "subnet_id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaasqxnzflmfrijme76yw53wis54t5x3gsufdolxxw7wxuhxs7k7aha",
+        "time_created": "2021-03-03T09:08:26.850000+00:00",
+        "vlan_tag": 379,
+        "vnic_id": "ocid1.vnic.oc1.uk-london-1.abwgiljrsdemd56lplwp7xkxjr3t4ayc6qcd2mzd7lrolljgxjzs4boqd7cq",
+        "assign_public_ip": true,
+        "region_availability_domain": "1"
+      },
+      "region": "uk-london-1",
+      "shape_config": {
+        "gpus": 0,
+        "local_disks": 0,
+        "max_vnic_attachments": 2,
+        "memory_in_gbs": 16,
+        "networking_bandwidth_in_gbps": 1,
+        "ocpus": 1,
+        "processor_description": "2.25 GHz AMD EPYC™ 7742 (Rome)"
+      },
+      "system_tags": {},
+      "time_created": "2021-03-03T09:08:21.485000+00:00",
+      "region_availability_domain": "WtoZ:UK-LONDON-1-AD-1"
+    },
+    {
+      "id": "ocid1.instance.oc1.uk-london-1.anwgiljt4g77oeyckdmu4ht25mvehducci2obc7qb53cbdcplab3wolscsaq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-wls-1",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:08:20.435Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "availability_domain": "2",
+      "shape": "VM.Standard.E3.Flex",
+      "count": 1,
+      "fault_domain": "FAULT-DOMAIN-1",
+      "agent_config": {
+        "is_monitoring_disabled": false,
+        "is_management_disabled": false
+      },
+      "vnics": [
+        {
+          "availability_domain": "2",
+          "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+          "defined_tags": {
+            "Mandatory_Tag": {
+              "CreateDate": "2021-03-03T09:08:20.571Z",
+              "CreatedBy": "okit.oci.user1"
+            }
+          },
+          "display_name": "primaryvnic",
+          "freeform_tags": {},
+          "hostname_label": "exwls-wls-1",
+          "id": "ocid1.vnic.oc1.uk-london-1.abwgiljtgy2bapmxsg37qr7ke6kywdt2waasfewvkhhqqygl3veliihkz5zq",
+          "instance_id": "ocid1.instance.oc1.uk-london-1.anwgiljt4g77oeyckdmu4ht25mvehducci2obc7qb53cbdcplab3wolscsaq",
+          "is_primary": true,
+          "lifecycle_state": "AVAILABLE",
+          "mac_address": "02:00:17:02:BC:B3",
+          "nic_index": 0,
+          "nsg_ids": [],
+          "private_ip": "10.0.3.3",
+          "skip_source_dest_check": false,
+          "subnet_id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaasqxnzflmfrijme76yw53wis54t5x3gsufdolxxw7wxuhxs7k7aha",
+          "time_created": "2021-03-03T09:08:27.946000+00:00",
+          "vlan_tag": 2864,
+          "vnic_id": "ocid1.vnic.oc1.uk-london-1.abwgiljtgy2bapmxsg37qr7ke6kywdt2waasfewvkhhqqygl3veliihkz5zq",
+          "assign_public_ip": true,
+          "region_availability_domain": "2"
+        }
+      ],
+      "source_details": {
+        "os": "Oracle Linux",
+        "version": "7.8",
+        "boot_volume_size_in_gbs": 47,
+        "source_type": "image",
+        "image_id": "ocid1.image.oc1..aaaaaaaaf64ifuwpan2iovsvxxm7eebokc6aygfk2dqrjai2zmph72bnnxka"
+      },
+      "metadata": {
+        "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAuB0OesOwp1tZ+r1QJ40iTSCyYGVEsHt5hwVAUfgXQbXXwK/7ETJDfHpbPLCKFFwrHkBbq1ubb5EQU+BzaklC9Bwl+j9eCPwpfk5QlemCai8qFps3G4UmQzh4DGQLQlRzrcJhRT7kYp6fNL6j5Jy3xiFYZAzkr1PNkUA2yFg/bL/n3sRBXqKAZOVTNnW8zsg5qDMHCW/wA012UfwVvdbYedJhObFAbw1xqFi0OkT99l6P0i6C3rLwfWLg9ojVPzvaMz15qn83F7TGP8NsgIA/7BKsEP8zXPuyE/AVmMRiBbyOCykhNDAoqSoTDgy3Yebs2NlKnwzaeQfu12TVJ8NvYw== rsa-key-20190104",
+        "user_data": "",
+        "add_loadbalancer": "true",
+        "allow_manual_domain_extension": "false",
+        "app_atp_db_id": "",
+        "app_atp_db_level": "low",
+        "appdb_existing_vcn_add_seclist": "",
+        "appdb_existing_vcn_id": "",
+        "appdb_host_domain": "",
+        "appdb_host_private_ips": "",
+        "appdb_hostname_list": "",
+        "appdb_hostname_prefix": "",
+        "appdb_is_oci_db": "false",
+        "appdb_name": "",
+        "appdb_network_compartment_id": "",
+        "appdb_node_count": "",
+        "appdb_password_ocid": "",
+        "appdb_port": "1521",
+        "appdb_scan_ip_list": "",
+        "appdb_shape": "",
+        "appdb_storage_management": "",
+        "appdb_subnet_id": "",
+        "appdb_unique_name": "",
+        "appdb_user": "",
+        "appdb_version": "",
+        "apply_JRF": "false",
+        "apppdb_name": "",
+        "assign_public_ip": "false",
+        "configure_app_db": "false",
+        "data_vol_device": "/dev/sdc",
+        "data_vol_mount_point": "/u01/data",
+        "db_is_oci_db": "false",
+        "db_password_ocid": "",
+        "deploy_sample_app": "true",
+        "domain_dir": "/u01/data/domains",
+        "fmiddleware_zip": "/u01/zips/jcs/FMW/12.2.1.4.0/fmiddleware.zip",
+        "host_index": "1",
+        "idcs_app_prefix": "ExWLS",
+        "idcs_artifacts_file": "/u01/data/.idcs_artifacts.txt",
+        "idcs_client_id": "",
+        "idcs_client_secret_ocid": "",
+        "idcs_cloudgate_config_file": "/u01/data/cloudgate_config/appgateway-env",
+        "idcs_cloudgate_docker_image_name": "opc-delivery.docker.oraclecorp.com/idcs/appgateway",
+        "idcs_cloudgate_docker_image_tar": "/u01/zips/jcs/app_gateway_docker/19.3.3/app-gateway-docker-image.tar.gz",
+        "idcs_cloudgate_docker_image_version": "19.3.3-3.2003312252",
+        "idcs_cloudgate_info_file": "/tmp/.idcs_cloudgate_info.txt",
+        "idcs_cloudgate_port": "9999",
+        "idcs_conf_app_info_file": "/tmp/.idcs_conf_app_info.txt",
+        "idcs_ent_app_info_file": "/tmp/.idcs_ent_app_info.txt",
+        "idcs_host": "identity.oraclecloud.com",
+        "idcs_ip": "",
+        "idcs_port": "443",
+        "idcs_tenant": "",
+        "is_admin_instance": "false",
+        "is_app_atp_dedicated": "",
+        "is_atp_app_db": "false",
+        "is_atp_db": "false",
+        "is_bastion_instance_required": "true",
+        "is_idcs_internal": "false",
+        "is_idcs_selected": "false",
+        "is_idcs_untrusted": "false",
+        "is_lb_private": "false",
+        "is_vcn_peered": "false",
+        "jdk_zip": "/u01/zips/jcs/JDK8.0/jdk.zip",
+        "lbip": "152.67.136.178",
+        "load_balancer_id": "ocid1.loadbalancer.oc1.uk-london-1.aaaaaaaa5qq4fa5ebcev5f4rziml56wg2pdo7pjbspe5x4ra64m4cgslxpfa",
+        "log_level": "INFO",
+        "logs_dir": "/u01/logs",
+        "mode": "PROD",
+        "mw_vol_device": "/dev/sdb",
+        "mw_vol_mount_point": "/u01/app",
+        "network_compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+        "patching_actions": "setup,list,info,download,apply,upgrade",
+        "service_name": "ExWLS",
+        "service_name_prefix": "ExWLS",
+        "status_check_timeout_duration_secs": "1800",
+        "tf_script_version": "21.1.2-210218195024\n",
+        "total_vm_count": "2",
+        "variant": "wiPECMve6esBkBF0g6c5mQ==",
+        "vmscripts_path": "/u01/zips/TF/wlsoci-vmscripts.zip",
+        "wls_admin_host": "ExWLS-wls-0",
+        "wls_admin_password_ocid": "ocid1.vaultsecret.oc1.uk-london-1.amaaaaaa4g77oeyaj7abv6fu2cqctg7ej6veen2u3emcmcrdft6po3otbr2a",
+        "wls_admin_port": "9071",
+        "wls_admin_server_name": "ExWLS_adminserver",
+        "wls_admin_server_wait_timeout_mins": "30",
+        "wls_admin_ssl_port": "9072",
+        "wls_admin_user": "weblogic",
+        "wls_cluster_mc_port": "5555",
+        "wls_cluster_name": "ExWLS_cluster",
+        "wls_domain_name": "ExWLS_domain",
+        "wls_edition": "SUITE",
+        "wls_existing_vcn_id": "",
+        "wls_ext_admin_port": "7001",
+        "wls_machine_name": "ExWLS_machine_",
+        "wls_ms_extern_port": "7003",
+        "wls_ms_extern_ssl_port": "7004",
+        "wls_ms_port": "9073",
+        "wls_ms_server_name": "ExWLS_server_",
+        "wls_ms_ssl_port": "9074",
+        "wls_nm_port": "5556",
+        "wls_secured_ext_admin_port": "7002",
+        "wls_subnet_cidr": "10.0.3.0/24",
+        "wls_subnet_ocid": "ocid1.subnet.oc1.uk-london-1.aaaaaaaasqxnzflmfrijme76yw53wis54t5x3gsufdolxxw7wxuhxs7k7aha",
+        "wls_version": "12.2.1.4"
+      },
+      "block_storage_volume_ids": [
+        "ocid1.volume.oc1.uk-london-1.abwgiljt5lc2uyb4mswprfebp7nyyzhk4d2elwjsibgjyjzxbi76lvts76rq",
+        "ocid1.volume.oc1.uk-london-1.abwgiljtwoteyz3gpvfqgl7x4uhkoi64bi52wlne4iq6a4lqfcrkbgvsi2pa"
+      ],
+      "object_storage_bucket_ids": [],
+      "autonomous_database_ids": [],
+      "preserve_boot_volume": false,
+      "is_pv_encryption_in_transit_enabled": false,
+      "availability_config": {
+        "recovery_action": "RESTORE_INSTANCE"
+      },
+      "extended_metadata": {},
+      "image_id": "ocid1.image.oc1..aaaaaaaaf64ifuwpan2iovsvxxm7eebokc6aygfk2dqrjai2zmph72bnnxka",
+      "instance_options": {
+        "are_legacy_imds_endpoints_disabled": false
+      },
+      "launch_mode": "NATIVE",
+      "launch_options": {
+        "boot_volume_type": "ISCSI",
+        "firmware": "UEFI_64",
+        "is_consistent_volume_naming_enabled": false,
+        "is_pv_encryption_in_transit_enabled": false,
+        "network_type": "VFIO",
+        "remote_data_volume_type": "PARAVIRTUALIZED"
+      },
+      "lifecycle_state": "RUNNING",
+      "primary_vnic": {
+        "availability_domain": "2",
+        "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+        "defined_tags": {
+          "Mandatory_Tag": {
+            "CreateDate": "2021-03-03T09:08:20.571Z",
+            "CreatedBy": "okit.oci.user1"
+          }
+        },
+        "display_name": "primaryvnic",
+        "freeform_tags": {},
+        "hostname_label": "exwls-wls-1",
+        "id": "ocid1.vnic.oc1.uk-london-1.abwgiljtgy2bapmxsg37qr7ke6kywdt2waasfewvkhhqqygl3veliihkz5zq",
+        "instance_id": "ocid1.instance.oc1.uk-london-1.anwgiljt4g77oeyckdmu4ht25mvehducci2obc7qb53cbdcplab3wolscsaq",
+        "is_primary": true,
+        "lifecycle_state": "AVAILABLE",
+        "mac_address": "02:00:17:02:BC:B3",
+        "nic_index": 0,
+        "nsg_ids": [],
+        "private_ip": "10.0.3.3",
+        "skip_source_dest_check": false,
+        "subnet_id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaasqxnzflmfrijme76yw53wis54t5x3gsufdolxxw7wxuhxs7k7aha",
+        "time_created": "2021-03-03T09:08:27.946000+00:00",
+        "vlan_tag": 2864,
+        "vnic_id": "ocid1.vnic.oc1.uk-london-1.abwgiljtgy2bapmxsg37qr7ke6kywdt2waasfewvkhhqqygl3veliihkz5zq",
+        "assign_public_ip": true,
+        "region_availability_domain": "2"
+      },
+      "region": "uk-london-1",
+      "shape_config": {
+        "gpus": 0,
+        "local_disks": 0,
+        "max_vnic_attachments": 2,
+        "memory_in_gbs": 16,
+        "networking_bandwidth_in_gbps": 1,
+        "ocpus": 1,
+        "processor_description": "2.25 GHz AMD EPYC™ 7742 (Rome)"
+      },
+      "system_tags": {},
+      "time_created": "2021-03-03T09:08:21.529000+00:00",
+      "region_availability_domain": "WtoZ:UK-LONDON-1-AD-2"
+    }
+  ],
+  "instance_pools": [],
+  "internet_gateways": [
+    {
+      "id": "ocid1.internetgateway.oc1.uk-london-1.aaaaaaaarbiqtkdno337qzkpwhxgoc23qrzqfor2ewassy5s27vmodl2hmnq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-internet-gateway",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:40.177Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "enabled": true,
+      "is_enabled": true,
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T09:07:40.218000+00:00"
+    }
+  ],
+  "ipsec_connections": [],
+  "load_balancers": [
+    {
+      "id": "ocid1.loadbalancer.oc1.uk-london-1.aaaaaaaa5qq4fa5ebcev5f4rziml56wg2pdo7pjbspe5x4ra64m4cgslxpfa",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-lb",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:46.263Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "subnet_ids": [
+        "ocid1.subnet.oc1.uk-london-1.aaaaaaaa2vgwa72y4dvfzdehjglx7qaxuf4n6r2uuuhgjx777jlpqxai6pka"
+      ],
+      "is_private": false,
+      "shape": "flexible",
+      "protocol": "HTTP",
+      "port": "80",
+      "instance_ids": [
+        "ocid1.instance.oc1.uk-london-1.anwgiljt4g77oeyckdmu4ht25mvehducci2obc7qb53cbdcplab3wolscsaq",
+        "ocid1.instance.oc1.uk-london-1.anwgiljr4g77oeyc7y57atb7ixcvq2o5btatvrfepdvsyno4s25g24kx4y3a"
+      ],
+      "ip_mode": "",
+      "network_security_group_ids": [],
+      "backend_policy": "ROUND_ROBIN",
+      "health_checker": {
+        "url_path": "/"
+      },
+      "backend_sets": {
+        "ExWLS-lb-backendset": {
+          "backends": [
+            {
+              "backup": false,
+              "drain": false,
+              "ip_address": "10.0.3.3",
+              "name": "10.0.3.3:7003",
+              "offline": false,
+              "port": 7003,
+              "weight": 1,
+              "instance_id": "ocid1.instance.oc1.uk-london-1.anwgiljt4g77oeyckdmu4ht25mvehducci2obc7qb53cbdcplab3wolscsaq"
+            },
+            {
+              "backup": false,
+              "drain": false,
+              "ip_address": "10.0.3.2",
+              "name": "10.0.3.2:7003",
+              "offline": false,
+              "port": 7003,
+              "weight": 1,
+              "instance_id": "ocid1.instance.oc1.uk-london-1.anwgiljr4g77oeyc7y57atb7ixcvq2o5btatvrfepdvsyno4s25g24kx4y3a"
+            }
+          ],
+          "health_checker": {
+            "interval_in_millis": 30000,
+            "port": 7003,
+            "protocol": "HTTP",
+            "response_body_regex": ".*",
+            "retries": 3,
+            "return_code": 404,
+            "timeout_in_millis": 3000,
+            "url_path": "/"
+          },
+          "lb_cookie_session_persistence_configuration": {
+            "cookie_name": "X-Oracle-BMC-LBS-Route",
+            "is_http_only": true,
+            "is_secure": true,
+            "path": "/"
+          },
+          "name": "ExWLS-lb-backendset",
+          "policy": "ROUND_ROBIN"
+        }
+      },
+      "certificates": {
+        "demo_cert": {
+          "certificate_name": "demo_cert",
+          "public_certificate": "-----BEGIN CERTIFICATE-----\nMIIFejCCA2KgAwIBAgIQVimByN6pMBnO6AT65yh/ojANBgkqhkiG9w0BAQsFADBo\nMQ0wCwYDVQQKEwREZW1vMRkwFwYDVQQLExBGT1IgVEVTVElORyBPTkxZMTwwOgYD\nVQQDEzNFeFdMUy1sYnB1YnN0MS1sYnB1YnN0MXNsd3hlLmV4d2xzdmNuLm9yYWNs\nZXZjbi5jb20wHhcNMjEwMzAzMDkwNzQ2WhcNMjIwMzAzMDkwNzQ2WjBoMQ0wCwYD\nVQQKEwREZW1vMRkwFwYDVQQLExBGT1IgVEVTVElORyBPTkxZMTwwOgYDVQQDEzNF\neFdMUy1sYnB1YnN0MS1sYnB1YnN0MXNsd3hlLmV4d2xzdmNuLm9yYWNsZXZjbi5j\nb20wggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDCBm70NR+gkTTxHy/t\nN3SArqTis9zG3SGPIrIPx3btGYWuB+UIizJjkhglvO7wya7XL+vF/5T6+9VYywHk\n/s78/gzOI5xfHRhNSAtdfJu3AwNm4PRw8FnApOXf7W95CVdF4vpvzRFjL/mJfP2r\n2IAdZteaknlwk3WNJ0+sX/V5dQV3o7DJiO9EmvtDaG9BxuXOLoW+9bKazhln4IFM\nFF1XR2EpF5N14JR835L7EuCwd+0jBocz+38yfhBQb+XekMgCVq8HlBdXqqUFxnzC\nHY9rDAphQ+dbRB7akOsiIlnigQt+Kjs8Tjxu3bQWZUtshX1SIIeEnsPnZLaWZr20\nNla15HDN61C22vtFfDH8j1UflXJDSQxcBkb86NvJNjLr5U4a+k2kenROgtNMEWUa\nfOOl+dRa01KZL+6Xhm0v12TYVTsnupc+5jAN2elLMigXAoxybJCsVA+H8VTssxkO\nhUHBB92pbZUwlK9rYT1NaXn5zZ69Ra6AMiNo3o0YrWCDNMYiWTTkLaEBapaJOpjl\nLjRMeliqhDfG7H3Y16s9T8jbv4UZWhBtJ4Jhf2SUuRondbJh8+98+j1wcy4AA/IU\ny3TGBfdIg0QkHvTJmZgb0hq2LUsG+zGee1biwJYFiFzQlXoQJaYJOl13BHpFEHJn\nCYnixmvayzJErA5C+QibYTRxvQIDAQABoyAwHjAOBgNVHQ8BAf8EBAMCAYYwDAYD\nVR0TAQH/BAIwADANBgkqhkiG9w0BAQsFAAOCAgEAcYv2MHbGi6p2Qor2bBG2HGbU\nt7BA3zeFCTvfzobZAe9aIXCPS94o9I+SDAGH73j62cyi4yX3Ja7RP28eXUIKQjZf\nKwnRVzZWS3xgKTdcs9QAZdzxl5z42T25efIti8G9v5yvbxMRru6B5ubuUWkA6mlO\nO5wl2y60QlVOjSFn0FHO0LjXx+kdYlJ0ek7cWIUTsjWL4nqPbUTEf69CZYgLA96u\nR/btJaaq6gvo/Ng0+IGhWZPs2vJAwkkjwYWUcVoSXOOuGnJi47oDwkmpHNxm3iNT\nVQzP0L+b3puOJMO56m8ergCXFQkQL5uh9PIwCu/gvkLwwaynXuFr4KZfiLKQkrc4\n0owFzm/z0/RazNhTc7h7PwOE/vWUeal3POtFQGv231/ZR7z9HsSJCuF/dMwIPTru\njxnrycuX160ACQThbZkli/sG3qUcLRmtUT47f3sLKRnkZX+uICQF2NeOpMWDPGJU\n4WcID7Kw/MXsq95YuFiqI2FfcQDxl0Y6MkLnnILXbNAGA1QaEuKyNRrJTwAdcWye\nnoHGAIrGTIvtuJNJKZ8w7akgTC5+6bGaoAswx2vTSsEA/gGRB+HwP/dOp4Kc02zK\niQwREK/7gFyOGIMTO0bDQ51A0hsJIkXg0QunKn08hmaHQqZGTnIKf3R0XLKO+WjK\n4606+3vLthGQ0W3J3wc=\n-----END CERTIFICATE-----\n"
+        }
+      },
+      "hostnames": {},
+      "ip_addresses": [
+        {
+          "ip_address": "152.67.136.178",
+          "is_public": true
+        }
+      ],
+      "lifecycle_state": "ACTIVE",
+      "listeners": {
+        "https": {
+          "connection_configuration": {
+            "idle_timeout": 10
+          },
+          "default_backend_set_name": "ExWLS-lb-backendset",
+          "hostname_names": [],
+          "name": "https",
+          "port": 443,
+          "protocol": "HTTP",
+          "rule_set_names": [
+            "SSLHeaders"
+          ],
+          "ssl_configuration": {
+            "certificate_name": "demo_cert",
+            "cipher_suite_name": "oci-default-ssl-cipher-suite-v1",
+            "protocols": [
+              "TLSv1.2"
+            ],
+            "server_order_preference": "ENABLED",
+            "verify_depth": 5,
+            "verify_peer_certificate": false
+          }
+        }
+      },
+      "path_route_sets": {},
+      "rule_sets": {
+        "SSLHeaders": {
+          "items": [
+            {
+              "action": "ADD_HTTP_REQUEST_HEADER",
+              "header": "is_ssl",
+              "value": "ssl"
+            },
+            {
+              "action": "ADD_HTTP_REQUEST_HEADER",
+              "header": "WL-Proxy-SSL",
+              "value": "true"
+            }
+          ],
+          "name": "SSLHeaders"
+        }
+      },
+      "ssl_cipher_suites": {},
+      "system_tags": {},
+      "time_created": "2021-03-03T09:07:46.558000+00:00"
+    }
+  ],
+  "local_peering_gateways": [],
+  "mysql_database_systems": [],
+  "nat_gateways": [],
+  "network_security_groups": [],
+  "object_storage_buckets": [],
+  "oke_clusters": [],
+  "remote_peering_connections": [],
+  "route_tables": [
+    {
+      "id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaa3jo2h4xvjwhvtbsycllmvzo7svgvouc5xngqclzuoi56a4hvel7q",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-routetable",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:41.352Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "route_rules": [
+        {
+          "destination": "all-lhr-services-in-oracle-services-network",
+          "destination_type": "SERVICE_CIDR_BLOCK",
+          "network_entity_id": "ocid1.servicegateway.oc1.uk-london-1.aaaaaaaahz63mipb2j4zxv4dubelnto7lumf6n6nan2xzykgtqfyrwvqxv2q",
+          "target_type": "service_gateways"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T09:07:41.403000+00:00"
+    },
+    {
+      "id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaatuytitt5i7g7niivxooerwyxipmnntz2gg64jfphylfwzkyt52ta",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "Default Route Table for ExWLS-wlsvcn",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:32.317Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "route_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "network_entity_id": "ocid1.internetgateway.oc1.uk-london-1.aaaaaaaarbiqtkdno337qzkpwhxgoc23qrzqfor2ewassy5s27vmodl2hmnq",
+          "target_type": "internet_gateways"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T09:07:32.465000+00:00"
+    }
+  ],
+  "security_lists": [
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaa4tyfdtjtae2ztsy24cul2k7wfzt6gc2muzml27j6jb5y6iyuexma",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-internal-security-list",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:38.451Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "all"
+        }
+      ],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "10.0.3.0/24",
+          "source_type": "CIDR_BLOCK"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T09:07:40.522000+00:00"
+    },
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaaoc2rq63wc34p5pcltuw7jefiqsa7lvewj6kluo2rweiotwg46gsa",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-wls-ms-security-list",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:37.230Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "egress_security_rules": [],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "10.0.4.0/24",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 7003,
+              "min": 7003
+            }
+          }
+        },
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "10.0.4.0/24",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 7004,
+              "min": 7004
+            }
+          }
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T09:07:40.253000+00:00"
+    },
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaa3j7ohj5bzphjk6dssm27qvxlc3futmr3jyrygoovfyz5xe73h4pa",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-wls-bastion-security-list",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:38.451Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "all"
+        }
+      ],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "all",
+          "source": "10.0.6.0/24",
+          "source_type": "CIDR_BLOCK"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T09:07:39.382000+00:00"
+    },
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaafnu4dgv7o7i5mpmtb4vtnqdmvcynmdfju7e7q426puoropxzl6qa",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-bastion-security-list",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:38.451Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "all"
+        }
+      ],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 22,
+              "min": 22
+            }
+          }
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T09:07:38.489000+00:00"
+    },
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaa4he6bwora5bvqbndkeayyqvfwrbpo73kodpjpom674nrm6dn7pba",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-lb-security-list",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:37.230Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "6"
+        }
+      ],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 443,
+              "min": 443
+            }
+          }
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T09:07:37.268000+00:00"
+    },
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaal23qfxofj34mlo3yfxzw5eua3hkzsysak3me2nsxsiopxhs322iq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "Default Security List for ExWLS-wlsvcn",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:32.317Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "all"
+        }
+      ],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 22,
+              "min": 22
+            }
+          }
+        },
+        {
+          "icmp_options": {
+            "code": 4,
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK"
+        },
+        {
+          "icmp_options": {
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "10.0.0.0/16",
+          "source_type": "CIDR_BLOCK"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T09:07:32.465000+00:00"
+    }
+  ],
+  "service_gateways": [
+    {
+      "id": "ocid1.servicegateway.oc1.uk-london-1.aaaaaaaahz63mipb2j4zxv4dubelnto7lumf6n6nan2xzykgtqfyrwvqxv2q",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-service-gateway",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:38.120Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "service_name": "All",
+      "autonomous_database_ids": [],
+      "object_storage_bucket_ids": [],
+      "route_table_id": "",
+      "block_traffic": false,
+      "lifecycle_state": "AVAILABLE",
+      "services": [
+        {
+          "service_id": "ocid1.service.oc1.uk-london-1.aaaaaaaatwg7f5mnzoapfunl66n2qkp4ormiykqk3hiwksum63gcyjk7ysla",
+          "service_name": "All LHR Services In Oracle Services Network"
+        }
+      ],
+      "time_created": "2021-03-03T09:07:39.221000+00:00"
+    }
+  ],
+  "subnets": [
+    {
+      "id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaa2vgwa72y4dvfzdehjglx7qaxuf4n6r2uuuhgjx777jlpqxai6pka",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-lbpubst1",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:41.856Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "cidr_block": "10.0.4.0/24",
+      "dns_label": "lbpubst1slwxe",
+      "prohibit_public_ip_on_vnic": false,
+      "route_table_id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaatuytitt5i7g7niivxooerwyxipmnntz2gg64jfphylfwzkyt52ta",
+      "security_list_ids": [
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaa4he6bwora5bvqbndkeayyqvfwrbpo73kodpjpom674nrm6dn7pba"
+      ],
+      "availability_domain": "0",
+      "is_ipv6enabled": false,
+      "ipv6cidr_block": "",
+      "dhcp_options_id": "ocid1.dhcpoptions.oc1.uk-london-1.aaaaaaaarznuw5tv7ddhknbcaimuxw4jmuyi3lobqmv5ar4yzgpocpfrtt2a",
+      "lifecycle_state": "AVAILABLE",
+      "subnet_domain_name": "lbpubst1slwxe.exwlsvcn.oraclevcn.com",
+      "time_created": "2021-03-03T09:07:42.346000+00:00",
+      "virtual_router_ip": "10.0.4.1",
+      "virtual_router_mac": "00:00:17:FD:02:C9"
+    },
+    {
+      "id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaasqxnzflmfrijme76yw53wis54t5x3gsufdolxxw7wxuhxs7k7aha",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-wl-subnet",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:42.049Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "cidr_block": "10.0.3.0/24",
+      "dns_label": "wlsubnetslwxe",
+      "prohibit_public_ip_on_vnic": true,
+      "route_table_id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaa3jo2h4xvjwhvtbsycllmvzo7svgvouc5xngqclzuoi56a4hvel7q",
+      "security_list_ids": [
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaa4tyfdtjtae2ztsy24cul2k7wfzt6gc2muzml27j6jb5y6iyuexma",
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaa3j7ohj5bzphjk6dssm27qvxlc3futmr3jyrygoovfyz5xe73h4pa",
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaaoc2rq63wc34p5pcltuw7jefiqsa7lvewj6kluo2rweiotwg46gsa"
+      ],
+      "availability_domain": "0",
+      "is_ipv6enabled": false,
+      "ipv6cidr_block": "",
+      "dhcp_options_id": "ocid1.dhcpoptions.oc1.uk-london-1.aaaaaaaarznuw5tv7ddhknbcaimuxw4jmuyi3lobqmv5ar4yzgpocpfrtt2a",
+      "lifecycle_state": "AVAILABLE",
+      "subnet_domain_name": "wlsubnetslwxe.exwlsvcn.oraclevcn.com",
+      "time_created": "2021-03-03T09:07:43.207000+00:00",
+      "virtual_router_ip": "10.0.3.1",
+      "virtual_router_mac": "00:00:17:FD:02:C9"
+    },
+    {
+      "id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaaa3wzczs7pffqx4wtk44ppge6xvwrqpkcooa4g64f3asrg3gtsy3a",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-bsubnet",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:41.857Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "cidr_block": "10.0.6.0/24",
+      "dns_label": "bsubnet57fa32a",
+      "prohibit_public_ip_on_vnic": false,
+      "route_table_id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaatuytitt5i7g7niivxooerwyxipmnntz2gg64jfphylfwzkyt52ta",
+      "security_list_ids": [
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaaoc2rq63wc34p5pcltuw7jefiqsa7lvewj6kluo2rweiotwg46gsa",
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaafnu4dgv7o7i5mpmtb4vtnqdmvcynmdfju7e7q426puoropxzl6qa"
+      ],
+      "availability_domain": "0",
+      "is_ipv6enabled": false,
+      "ipv6cidr_block": "",
+      "dhcp_options_id": "ocid1.dhcpoptions.oc1.uk-london-1.aaaaaaaarznuw5tv7ddhknbcaimuxw4jmuyi3lobqmv5ar4yzgpocpfrtt2a",
+      "lifecycle_state": "AVAILABLE",
+      "subnet_domain_name": "bsubnet57fa32a.exwlsvcn.oraclevcn.com",
+      "time_created": "2021-03-03T09:07:41.909000+00:00",
+      "virtual_router_ip": "10.0.6.1",
+      "virtual_router_mac": "00:00:17:FD:02:C9"
+    }
+  ],
+  "virtual_cloud_networks": [
+    {
+      "id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyalmspsuusgkjytojdstewtfdzcvyyeuzq6ha36uteiuaa",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-wlsvcn",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T09:07:32.317Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "cidr_block": "10.0.0.0/16",
+      "dns_label": "exwlsvcn",
+      "is_ipv6enabled": false,
+      "ipv6cidr_block": "",
+      "default_dhcp_options_id": "ocid1.dhcpoptions.oc1.uk-london-1.aaaaaaaa2jelplpshjztkmlrikgchvisi24nygrvi4ug5ury57uh5ztu2jbq",
+      "default_route_table_id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaatuytitt5i7g7niivxooerwyxipmnntz2gg64jfphylfwzkyt52ta",
+      "default_security_list_id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaal23qfxofj34mlo3yfxzw5eua3hkzsysak3me2nsxsiopxhs322iq",
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T09:07:32.465000+00:00",
+      "vcn_domain_name": "exwlsvcn.oraclevcn.com"
+    }
+  ]
+}

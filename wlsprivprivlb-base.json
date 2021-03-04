@@ -1,0 +1,504 @@
+{
+  "title": "Market Place: Oracle WebLogic Server domain in Oracle Cloud Infrastructure : Private Subnet with Private LB BASE",
+  "description": "",
+  "created": "2021-3-3 11:20:5",
+  "updated": "2021-3-3 11:20:14",
+  "okit_version": "0.17.0",
+  "compartments": [
+    {
+      "id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "compartment_id": null,
+      "display_name": "Example",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "OracleInternalReserved": {
+          "UsageType": "development-field-sales"
+        }
+      },
+      "description": "Example",
+      "is_accessible": true,
+      "lifecycle_state": "ACTIVE",
+      "time_created": "2018-12-19T16:23:51.929000+00:00"
+    }
+  ],
+  "customer_premise_equipments": [],
+  "autonomous_databases": [],
+  "block_storage_volumes": [],
+  "database_systems": [],
+  "dynamic_routing_gateways": [],
+  "fast_connects": [],
+  "file_storage_systems": [],
+  "instances": [],
+  "instance_pools": [],
+  "internet_gateways": [
+    {
+      "id": "ocid1.internetgateway.oc1.uk-london-1.aaaaaaaaz7bpa2uepcmuu7jlg636mxj3vs4jdo2tutni5nks5xxt6gdrl55a",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-internet-gateway",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:25.525Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "enabled": true,
+      "is_enabled": true,
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T10:22:25.560000+00:00"
+    }
+  ],
+  "ipsec_connections": [],
+  "load_balancers": [],
+  "local_peering_gateways": [],
+  "mysql_database_systems": [],
+  "nat_gateways": [],
+  "network_security_groups": [],
+  "object_storage_buckets": [],
+  "oke_clusters": [],
+  "remote_peering_connections": [],
+  "route_tables": [
+    {
+      "id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaajn2kkwwesvlebsqtwfeegjtljsyga4otnlj5jb5ddv5wp3cu66nq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-routetable",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:30.224Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "route_rules": [
+        {
+          "destination": "all-lhr-services-in-oracle-services-network",
+          "destination_type": "SERVICE_CIDR_BLOCK",
+          "network_entity_id": "ocid1.servicegateway.oc1.uk-london-1.aaaaaaaajxl5hruz7nlcebqgwv3lb7k6smdgtpzaou2xgg7h4mtwmqflyv5a",
+          "target_type": "service_gateways"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T10:22:30.257000+00:00"
+    },
+    {
+      "id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaawgzy23mce6aokfkwjneequn65mxvswvdihw5t3fr2ybrw3vbpxwq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "Default Route Table for ExWLS-wlsvcn",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:21.619Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "route_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "network_entity_id": "ocid1.internetgateway.oc1.uk-london-1.aaaaaaaaz7bpa2uepcmuu7jlg636mxj3vs4jdo2tutni5nks5xxt6gdrl55a",
+          "target_type": "internet_gateways"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T10:22:21.717000+00:00"
+    }
+  ],
+  "security_lists": [
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaa7ubennedm5s5ml53q6fh6gaqwkkt7cdzepslh5n54o3lvpnrkchq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-wls-ms-security-list",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:30.066Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "egress_security_rules": [],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "10.0.4.0/24",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 7003,
+              "min": 7003
+            }
+          }
+        },
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "10.0.4.0/24",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 7004,
+              "min": 7004
+            }
+          }
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T10:22:30.151000+00:00"
+    },
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaab2q6orlsellovvg63zz3bjh5tm263dhngwyuaol24ux5zwera2tq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-internal-security-list",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:24.962Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "all"
+        }
+      ],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "10.0.3.0/24",
+          "source_type": "CIDR_BLOCK"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T10:22:29.414000+00:00"
+    },
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaas37eb3szvivdzsmx5ngtcq7atzlu5xrgd75uxh73zk2nzpeiyjnq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-bastion-security-list",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:27.235Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "all"
+        }
+      ],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 22,
+              "min": 22
+            }
+          }
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T10:22:27.964000+00:00"
+    },
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaavau46gxe2ujfcsj36xe6vgl6prodggz34f4znzb6a7jt3zs6r7sq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-lb-security-list",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:27.235Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "6"
+        }
+      ],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "10.0.6.0/24",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 443,
+              "min": 443
+            }
+          }
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T10:22:27.559000+00:00"
+    },
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaaqhoqsadhbudk6ofskbab5anne62wol6zcfkqicisus37ddvbusxq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-wls-bastion-security-list",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:24.962Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "all"
+        }
+      ],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "all",
+          "source": "10.0.6.0/24",
+          "source_type": "CIDR_BLOCK"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T10:22:24.995000+00:00"
+    },
+    {
+      "id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaakfsaihbofocydztfjsfzaniq2enl5fc235poetiqkqxbi3l4qbra",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "Default Security List for ExWLS-wlsvcn",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:21.619Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "egress_security_rules": [
+        {
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "is_stateless": false,
+          "protocol": "all"
+        }
+      ],
+      "ingress_security_rules": [
+        {
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 22,
+              "min": 22
+            }
+          }
+        },
+        {
+          "icmp_options": {
+            "code": 4,
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK"
+        },
+        {
+          "icmp_options": {
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "10.0.0.0/16",
+          "source_type": "CIDR_BLOCK"
+        }
+      ],
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T10:22:21.717000+00:00"
+    }
+  ],
+  "service_gateways": [
+    {
+      "id": "ocid1.servicegateway.oc1.uk-london-1.aaaaaaaajxl5hruz7nlcebqgwv3lb7k6smdgtpzaou2xgg7h4mtwmqflyv5a",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-service-gateway",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:28.256Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "service_name": "All",
+      "autonomous_database_ids": [],
+      "object_storage_bucket_ids": [],
+      "route_table_id": "",
+      "block_traffic": false,
+      "lifecycle_state": "AVAILABLE",
+      "services": [
+        {
+          "service_id": "ocid1.service.oc1.uk-london-1.aaaaaaaatwg7f5mnzoapfunl66n2qkp4ormiykqk3hiwksum63gcyjk7ysla",
+          "service_name": "All LHR Services In Oracle Services Network"
+        }
+      ],
+      "time_created": "2021-03-03T10:22:28.756000+00:00"
+    }
+  ],
+  "subnets": [
+    {
+      "id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaadt5didh36naytos3xlrd3kwjp6wogtkfmeunuouywbrxm4bnkaoq",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-lbprist1",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:30.816Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "cidr_block": "10.0.4.0/24",
+      "dns_label": "lbprist1slwxe",
+      "prohibit_public_ip_on_vnic": true,
+      "route_table_id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaawgzy23mce6aokfkwjneequn65mxvswvdihw5t3fr2ybrw3vbpxwq",
+      "security_list_ids": [
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaavau46gxe2ujfcsj36xe6vgl6prodggz34f4znzb6a7jt3zs6r7sq"
+      ],
+      "availability_domain": "0",
+      "is_ipv6enabled": false,
+      "ipv6cidr_block": "",
+      "dhcp_options_id": "ocid1.dhcpoptions.oc1.uk-london-1.aaaaaaaai6f5gqjc75iyibtkdieozenars4hnkr6x7oab6ffylefnwyqa62q",
+      "lifecycle_state": "AVAILABLE",
+      "subnet_domain_name": "lbprist1slwxe.exwlsvcn.oraclevcn.com",
+      "time_created": "2021-03-03T10:22:30.883000+00:00",
+      "virtual_router_ip": "10.0.4.1",
+      "virtual_router_mac": "00:00:17:40:61:71"
+    },
+    {
+      "id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaahk2fnhalehhfifeg4j5ypa55thpd66jfpkyhvy2noqkps46gw2aa",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-wl-subnet",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:30.901Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "cidr_block": "10.0.3.0/24",
+      "dns_label": "wlsubnetslwxe",
+      "prohibit_public_ip_on_vnic": true,
+      "route_table_id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaajn2kkwwesvlebsqtwfeegjtljsyga4otnlj5jb5ddv5wp3cu66nq",
+      "security_list_ids": [
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaab2q6orlsellovvg63zz3bjh5tm263dhngwyuaol24ux5zwera2tq",
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaaqhoqsadhbudk6ofskbab5anne62wol6zcfkqicisus37ddvbusxq",
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaa7ubennedm5s5ml53q6fh6gaqwkkt7cdzepslh5n54o3lvpnrkchq"
+      ],
+      "availability_domain": "0",
+      "is_ipv6enabled": false,
+      "ipv6cidr_block": "",
+      "dhcp_options_id": "ocid1.dhcpoptions.oc1.uk-london-1.aaaaaaaai6f5gqjc75iyibtkdieozenars4hnkr6x7oab6ffylefnwyqa62q",
+      "lifecycle_state": "AVAILABLE",
+      "subnet_domain_name": "wlsubnetslwxe.exwlsvcn.oraclevcn.com",
+      "time_created": "2021-03-03T10:22:32.924000+00:00",
+      "virtual_router_ip": "10.0.3.1",
+      "virtual_router_mac": "00:00:17:40:61:71"
+    },
+    {
+      "id": "ocid1.subnet.oc1.uk-london-1.aaaaaaaa6bivm3fsanbctceksy7d2ki7gzncbd5nc4bjbavt633nnus4vpra",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-bsubnet",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:30.912Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "vcn_id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "cidr_block": "10.0.6.0/24",
+      "dns_label": "bsubnet88fe6fd",
+      "prohibit_public_ip_on_vnic": false,
+      "route_table_id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaawgzy23mce6aokfkwjneequn65mxvswvdihw5t3fr2ybrw3vbpxwq",
+      "security_list_ids": [
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaa7ubennedm5s5ml53q6fh6gaqwkkt7cdzepslh5n54o3lvpnrkchq",
+        "ocid1.securitylist.oc1.uk-london-1.aaaaaaaas37eb3szvivdzsmx5ngtcq7atzlu5xrgd75uxh73zk2nzpeiyjnq"
+      ],
+      "availability_domain": "0",
+      "is_ipv6enabled": false,
+      "ipv6cidr_block": "",
+      "dhcp_options_id": "ocid1.dhcpoptions.oc1.uk-london-1.aaaaaaaai6f5gqjc75iyibtkdieozenars4hnkr6x7oab6ffylefnwyqa62q",
+      "lifecycle_state": "AVAILABLE",
+      "subnet_domain_name": "bsubnet88fe6fd.exwlsvcn.oraclevcn.com",
+      "time_created": "2021-03-03T10:22:31.327000+00:00",
+      "virtual_router_ip": "10.0.6.1",
+      "virtual_router_mac": "00:00:17:40:61:71"
+    }
+  ],
+  "virtual_cloud_networks": [
+    {
+      "id": "ocid1.vcn.oc1.uk-london-1.amaaaaaa4g77oeyaonh5kvc7xvbnauhteh3npfbwuxgrkjgjuxnuc5izyaaa",
+      "compartment_id": "ocid1.compartment.oc1..aaaaaaaaqrg4xg2hf5vuogbbmfo53oqmyfeeorjeuvkv37r5uhn3esodb2rq",
+      "display_name": "ExWLS-wlsvcn",
+      "definition": "",
+      "freeform_tags": {},
+      "defined_tags": {
+        "Mandatory_Tag": {
+          "CreateDate": "2021-03-03T10:22:21.619Z",
+          "CreatedBy": "okit.oci.user1"
+        }
+      },
+      "cidr_block": "10.0.0.0/16",
+      "dns_label": "exwlsvcn",
+      "is_ipv6enabled": false,
+      "ipv6cidr_block": "",
+      "default_dhcp_options_id": "ocid1.dhcpoptions.oc1.uk-london-1.aaaaaaaab5x7ojkzpbyzyz7fxmqk7fcgwogk7pqd4j27lj2xcbnie6lkdkta",
+      "default_route_table_id": "ocid1.routetable.oc1.uk-london-1.aaaaaaaawgzy23mce6aokfkwjneequn65mxvswvdihw5t3fr2ybrw3vbpxwq",
+      "default_security_list_id": "ocid1.securitylist.oc1.uk-london-1.aaaaaaaakfsaihbofocydztfjsfzaniq2enl5fc235poetiqkqxbi3l4qbra",
+      "lifecycle_state": "AVAILABLE",
+      "time_created": "2021-03-03T10:22:21.717000+00:00",
+      "vcn_domain_name": "exwlsvcn.oraclevcn.com"
+    }
+  ]
+}
