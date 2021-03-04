@@ -1,2 +1,2 @@
 # okit-testing
-OKIT Designs
+OKIT Designs for the pattern library.
