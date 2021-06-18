@@ -1,0 +1,331 @@
+{
+  "autonomous_databases": [],
+  "block_storage_volumes": [],
+  "compartments": [
+    {
+      "compartment_id": null,
+      "defined_tags": {},
+      "definition": "Logical Compartment that represents the deployment location for the resources specified within the design. This compartment will not be created during the build process.",
+      "description": "Represents the deployment location for the resources specified within the design.",
+      "display_name": "Deployment Compartment",
+      "freeform_tags": {},
+      "id": "okit.compartment.bcd0e151-726b-4bc0-9316-c7ed05134bf4",
+      "read_only": true
+    }
+  ],
+  "created": "2021-6-18 8:18:10",
+  "customer_premise_equipments": [],
+  "database_systems": [],
+  "description": "# Description\n__Created 2021-6-18 8:4:27__\n\n--------------------------------------\n\n",
+  "dhcp_options": [
+    {
+      "compartment_id": "okit.compartment.bcd0e151-726b-4bc0-9316-c7ed05134bf4",
+      "default": true,
+      "defined_tags": {},
+      "definition": "",
+      "display_name": "do001",
+      "freeform_tags": {},
+      "id": "okit.dhcpoption.874014e0-3a5e-416e-8b29-93af4e6c3471",
+      "options": [
+        {
+          "custom_dns_servers": [],
+          "search_domain_names": [],
+          "server_type": "CustomDnsServer",
+          "type": "DomainNameServer"
+        }
+      ],
+      "read_only": false,
+      "vcn_id": "okit.virtualcloudnetwork.c706132c-7f39-4c47-8f28-0e4cd484d26f"
+    }
+  ],
+  "dynamic_routing_gateways": [],
+  "fast_connects": [],
+  "file_storage_systems": [],
+  "instance_pools": [],
+  "instances": [
+    {
+      "agent_config": {
+        "is_management_disabled": false,
+        "is_monitoring_disabled": false
+      },
+      "autonomous_database_ids": [],
+      "availability_domain": "1",
+      "block_storage_volume_ids": [],
+      "compartment_id": "okit.compartment.bcd0e151-726b-4bc0-9316-c7ed05134bf4",
+      "count": 1,
+      "defined_tags": {},
+      "definition": "",
+      "display_name": "mmin1",
+      "fault_domain": "",
+      "freeform_tags": {},
+      "id": "okit.instance.a14edb92-26c6-4083-b5f8-7506f55503ce",
+      "is_pv_encryption_in_transit_enabled": false,
+      "metadata": {
+        "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAuB0OesOwp1tZ+r1QJ40iTSCyYGVEsHt5hwVAUfgXQbXXwK/7ETJDfHpbPLCKFFwrHkBbq1ubb5EQU+BzaklC9Bwl+j9eCPwpfk5QlemCai8qFps3G4UmQzh4DGQLQlRzrcJhRT7kYp6fNL6j5Jy3xiFYZAzkr1PNkUA2yFg/bL/n3sRBXqKAZOVTNnW8zsg5qDMHCW/wA012UfwVvdbYedJhObFAbw1xqFi0OkT99l6P0i6C3rLwfWLg9ojVPzvaMz15qn83F7TGP8NsgIA/7BKsEP8zXPuyE/AVmMRiBbyOCykhNDAoqSoTDgy3Yebs2NlKnwzaeQfu12TVJ8NvYw== rsa-key-20190104%",
+        "user_data": ""
+      },
+      "object_storage_bucket_ids": [],
+      "preserve_boot_volume": false,
+      "primary_vnic": {
+        "assign_public_ip": true,
+        "hostname_label": "mmin1",
+        "nsg_ids": [],
+        "skip_source_dest_check": false,
+        "subnet_id": "okit.subnet.34711890-c96f-48c8-a7c5-c01eefe3b31c"
+      },
+      "read_only": false,
+      "shape": "VM.Standard.E3.Flex",
+      "shape_config": {
+        "memory_in_gbs": 16,
+        "ocpus": 1
+      },
+      "source_details": {
+        "boot_volume_size_in_gbs": "50",
+        "os": "Oracle Linux",
+        "source_type": "image",
+        "version": "8"
+      },
+      "subnet_id": "okit.subnet.34711890-c96f-48c8-a7c5-c01eefe3b31c",
+      "vnics": [
+        {
+          "assign_public_ip": true,
+          "hostname_label": "mmin1",
+          "nsg_ids": [],
+          "skip_source_dest_check": false,
+          "subnet_id": "okit.subnet.34711890-c96f-48c8-a7c5-c01eefe3b31c"
+        }
+      ]
+    }
+  ],
+  "internet_gateways": [
+    {
+      "compartment_id": "okit.compartment.bcd0e151-726b-4bc0-9316-c7ed05134bf4",
+      "defined_tags": {},
+      "definition": "",
+      "display_name": "mmig",
+      "enabled": true,
+      "freeform_tags": {},
+      "id": "okit.internetgateway.4d44e367-83b9-44db-b325-6cea1b54b10b",
+      "read_only": false,
+      "vcn_id": "okit.virtualcloudnetwork.c706132c-7f39-4c47-8f28-0e4cd484d26f"
+    }
+  ],
+  "ipsec_connections": [],
+  "load_balancers": [],
+  "local_peering_gateways": [],
+  "mysql_database_systems": [],
+  "nat_gateways": [],
+  "network_security_groups": [],
+  "object_storage_buckets": [],
+  "oke_clusters": [],
+  "okit_version": "0.23.0",
+  "remote_peering_connections": [],
+  "route_tables": [
+    {
+      "compartment_id": "okit.compartment.bcd0e151-726b-4bc0-9316-c7ed05134bf4",
+      "default": true,
+      "defined_tags": {},
+      "definition": "",
+      "display_name": "mmpubrt",
+      "freeform_tags": {},
+      "id": "okit.routetable.4113d688-7eac-4926-b62e-17e9bb6d6955",
+      "read_only": false,
+      "route_rules": [
+        {
+          "description": "",
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "network_entity_id": "okit.internetgateway.4d44e367-83b9-44db-b325-6cea1b54b10b",
+          "target_type": "internet_gateways"
+        }
+      ],
+      "vcn_id": "okit.virtualcloudnetwork.c706132c-7f39-4c47-8f28-0e4cd484d26f"
+    }
+  ],
+  "security_lists": [
+    {
+      "compartment_id": "okit.compartment.bcd0e151-726b-4bc0-9316-c7ed05134bf4",
+      "default": true,
+      "defined_tags": {},
+      "definition": "",
+      "display_name": "mmpubsl",
+      "egress_security_rules": [
+        {
+          "description": "",
+          "destination": "0.0.0.0/0",
+          "destination_type": "CIDR_BLOCK",
+          "icmp_options": {
+            "code": "",
+            "type": ""
+          },
+          "is_stateless": false,
+          "protocol": "all",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": "",
+              "min": ""
+            },
+            "source_port_range": {
+              "max": "",
+              "min": ""
+            }
+          },
+          "udp_options": {
+            "destination_port_range": {
+              "max": "",
+              "min": ""
+            },
+            "source_port_range": {
+              "max": "",
+              "min": ""
+            }
+          }
+        }
+      ],
+      "freeform_tags": {},
+      "id": "okit.securitylist.7e08c179-ef08-4515-96b9-4982a592d643",
+      "ingress_security_rules": [
+        {
+          "description": "",
+          "icmp_options": {
+            "code": "",
+            "type": ""
+          },
+          "is_stateless": false,
+          "protocol": "6",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": 22,
+              "min": 22
+            },
+            "source_port_range": {
+              "max": "",
+              "min": ""
+            }
+          },
+          "udp_options": {
+            "destination_port_range": {
+              "max": "",
+              "min": ""
+            },
+            "source_port_range": {
+              "max": "",
+              "min": ""
+            }
+          }
+        },
+        {
+          "description": "",
+          "icmp_options": {
+            "code": 4,
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "0.0.0.0/0",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": "",
+              "min": ""
+            },
+            "source_port_range": {
+              "max": "",
+              "min": ""
+            }
+          },
+          "udp_options": {
+            "destination_port_range": {
+              "max": "",
+              "min": ""
+            },
+            "source_port_range": {
+              "max": "",
+              "min": ""
+            }
+          }
+        },
+        {
+          "description": "",
+          "icmp_options": {
+            "type": 3
+          },
+          "is_stateless": false,
+          "protocol": "1",
+          "source": "10.0.0.0/16",
+          "source_type": "CIDR_BLOCK",
+          "tcp_options": {
+            "destination_port_range": {
+              "max": "",
+              "min": ""
+            },
+            "source_port_range": {
+              "max": "",
+              "min": ""
+            }
+          },
+          "udp_options": {
+            "destination_port_range": {
+              "max": "",
+              "min": ""
+            },
+            "source_port_range": {
+              "max": "",
+              "min": ""
+            }
+          }
+        }
+      ],
+      "read_only": false,
+      "vcn_id": "okit.virtualcloudnetwork.c706132c-7f39-4c47-8f28-0e4cd484d26f"
+    }
+  ],
+  "service_gateways": [],
+  "subnets": [
+    {
+      "availability_domain": "0",
+      "cidr_block": "10.0.0.0/24",
+      "compartment_id": "okit.compartment.bcd0e151-726b-4bc0-9316-c7ed05134bf4",
+      "defined_tags": {},
+      "definition": "",
+      "dhcp_options_id": "",
+      "display_name": "mmpubsn",
+      "dns_label": "sn001",
+      "freeform_tags": {},
+      "id": "okit.subnet.34711890-c96f-48c8-a7c5-c01eefe3b31c",
+      "ipv6cidr_block": "",
+      "is_ipv6enabled": false,
+      "prohibit_public_ip_on_vnic": false,
+      "read_only": false,
+      "route_table_id": "okit.routetable.4113d688-7eac-4926-b62e-17e9bb6d6955",
+      "security_list_ids": [
+        "okit.securitylist.7e08c179-ef08-4515-96b9-4982a592d643"
+      ],
+      "vcn_id": "okit.virtualcloudnetwork.c706132c-7f39-4c47-8f28-0e4cd484d26f"
+    }
+  ],
+  "template_type": "Git",
+  "title": "My Simple VM setup",
+  "updated": "2021-6-18 8:26:34",
+  "virtual_cloud_networks": [
+    {
+      "cidr_blocks": [
+        "10.0.0.0/16"
+      ],
+      "compartment_id": "okit.compartment.bcd0e151-726b-4bc0-9316-c7ed05134bf4",
+      "defined_tags": {},
+      "definition": "",
+      "display_name": "mmvcn",
+      "dns_label": "vcn001",
+      "freeform_tags": {},
+      "id": "okit.virtualcloudnetwork.c706132c-7f39-4c47-8f28-0e4cd484d26f",
+      "ipv6cidr_blocks": [
+        ""
+      ],
+      "is_ipv6enabled": false,
+      "read_only": false
+    }
+  ]
+}
