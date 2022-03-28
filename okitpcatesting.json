@@ -33,7 +33,7 @@
     }
   ],
   "defined_tags": {},
-  "description": "# Description\n__Created 2022-1-26 9:40:32__\n\n--------------------------------------\n\n",
+  "description": "# Description\n__Created 2022-1-26 9:40:32__\n\n--------------------------------------\n\njkldjljldkjfs",
   "dhcp_options": [
     {
       "compartment_id": "okit.compartment.e73bf621-5720-4164-ad14-11389dd48024",
@@ -155,6 +155,7 @@
         "memory_in_gbs": 0,
         "ocpus": 0
       },
+      "shape_series": "intel",
       "source_details": {
         "boot_volume_size_in_gbs": "50",
         "image_id": "ocid1.image.AK00661530.scasg01.mgtqrcx6db1lnpacjzxly2a8ghzydpoba7vw5dfq0wdjhisz4p02pbhfrham",
@@ -172,7 +173,8 @@
           "skip_source_dest_check": false,
           "subnet_id": "okit.subnet.df3754e0-7691-49e3-9e53-98391b5a57f6"
         }
-      ]
+      ],
+      "volume_attachments": []
     },
     {
       "agent_config": {
@@ -216,6 +218,7 @@
         "memory_in_gbs": 0,
         "ocpus": 0
       },
+      "shape_series": "intel",
       "source_details": {
         "boot_volume_size_in_gbs": "50",
         "image_id": "ocid1.image.AK00661530.scasg01.ur4c9yj45jpt666iuce5u14otmzvloq3k548llab8cbnnyjnyvjw52qszczq",
@@ -233,7 +236,8 @@
           "skip_source_dest_check": false,
           "subnet_id": "okit.subnet.6bb90a6d-17be-4e82-89b8-ad9e6196b8e1"
         }
-      ]
+      ],
+      "volume_attachments": []
     },
     {
       "agent_config": {
@@ -277,6 +281,7 @@
         "memory_in_gbs": 0,
         "ocpus": 0
       },
+      "shape_series": "intel",
       "source_details": {
         "boot_volume_size_in_gbs": "50",
         "image_id": "ocid1.image.AK00661530.scasg01.ur4c9yj45jpt666iuce5u14otmzvloq3k548llab8cbnnyjnyvjw52qszczq",
@@ -294,7 +299,8 @@
           "skip_source_dest_check": false,
           "subnet_id": "okit.subnet.1cba8f53-246d-4e95-9d6c-4dec59ca4d20"
         }
-      ]
+      ],
+      "volume_attachments": []
     }
   ],
   "internet_gateways": [
@@ -361,10 +367,15 @@
   ],
   "metadata": {
     "created": "2022-1-26 9:40:32",
+    "file": {
+      "generate_terraform": false,
+      "name": "/github.com/okit-testing/okitpcatesting.json",
+      "terraform_dir": "/github.com/okit-testing/okitpcatesting"
+    },
     "okit_model_id": "okit-model-c1bf5057-f1db-4cab-9e7e-afe55db8cd18",
     "okit_version": "0.32.0",
     "platform": "pca",
-    "resource_count": 178,
+    "resource_count": 236,
     "updated": "2022-1-26 9:40:32"
   },
   "mount_targets": [
@@ -432,7 +443,6 @@
       "vcn_id": "okit.virtualcloudnetwork.4e10d29b-92e8-473a-bccf-d4b2eed3d4ea"
     }
   ],
-  "network_security_groups": [],
   "route_tables": [
     {
       "compartment_id": "okit.compartment.e73bf621-5720-4164-ad14-11389dd48024",
